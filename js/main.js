@@ -4,37 +4,37 @@
 // let's know how to select an element with an ID****
 // getElementById
 // I'm gonna select view
-//const view1 = document.getElementById("view1");
-//console.log(view1);
+const view1 = document.getElementById("view1");
+console.log(view1);
 // another method to select an element with an Id (querySelector())
-//const view2 = document.querySelector("view2");
-//console.log(view2);
+const view2 = document.querySelector("view2");
+console.log(view2);
 // here we can't directly write view2 use #view2
-//const view2 = document.querySelector("#view2");
-//console.log(view2);
+const view2 = document.querySelector("#view2");
+console.log(view2);
 
 // while using querySelector use ( # )
-//const view2 = document.querySelector("#view2");
-//console.log(view2);
+const view2 = document.querySelector("#view2");
+console.log(view2);
 //====================================================//
 // now let's see how we can change the style of the view
-/*
+
 const view1 = document.getElementById("view1");
 console.log(view1);
 const view2 = document.querySelector("#view2");
 console.log(view2);
 // to change style of the view i.e..to show or hide the view
 // we can't change the nav element as it always show. we can't hide the nav element 
-//view1.style.display = "none";
-//view2.style.display = "none";
-//view1.style.display = "none";
-//view2.style.display = "flex";
+view1.style.display = "none";
+view2.style.display = "none";
+view1.style.display = "none";
+view2.style.display = "flex";
 view1.style.display = "flex";
-view2.style.display = "flex"; */
+view2.style.display = "flex"; 
 
 
 // so let's goahead and look at the methods to select all views***
-/*
+
 // here also two different methods to select multiple views
 // 1. getElementsByClassName() 
 // 2. querySelectorAll()
@@ -63,14 +63,14 @@ console.log(sameViews);
 
 // individual divs
 // to select divs
-/*
+
 const divs = document.querySelectorAll("div");
 console.log(divs);
 const sameDivs = document.getElementsByTagName("div");
-console.log(sameDivs); */
+console.log(sameDivs); 
 ////////////////////////////////////////////////////////////////////////////////////
 // imma practice one more time!
-/*
+
 const view1 = document.getElementById("view1");
 console.log(view1);
 const view2 = document.querySelector("#view2");
@@ -84,11 +84,11 @@ console.log(sameViews);
 const divs = document.querySelectorAll("#div") 
 console.log(divs);
 const sameDivs = document.getElementsByTagName("div");
-console.log(sameDivs); */
+console.log(sameDivs); 
 ////////////////////////////////////////////////////////////////////////
 // selecting divs using previous selectors
 // ** we don't need to use # or . while we are selecting from previous selectors ***
-/*
+
 const view1 = document.getElementById("view1");
 console.log(view1);
 const view2 = document.querySelector("#view2");
@@ -118,31 +118,31 @@ console.log(evenDivs);
 
 // we can also to select only odd divs 
 const oddDivs = view1.querySelectorAll("div:nth-of-type(2n+1)");
-console.log(oddDivs); */
+console.log(oddDivs); 
 
 // not only this we can alter anything on the page!
 // so let's try to do some changes to the page!
-/*
+
 for ( i=0; i<evenDivs.length; i++ ) {
     evenDivs[i].style.background = "blue";
 }
 
 for ( i=0; i<oddDivs.length; i++ ) {
     oddDivs[i].style.background = "orange";
-} */
-/*
+} 
+
 for (i=0; i<evenDivs.length; i++) {
     evenDivs[i].style.background = "blue";
     evenDivs[i].style.width = "200px";
     evenDivs[i].style.height = "200px";
-} */
+} 
 /////////////
-/*
+
 for (i=0; i<oddDivs.length; i++) {
     oddDivs[i].style.background = "orange";
     oddDivs[i].style.width = "200px";
     oddDivs[i].style.height = "200px";
-} */
+} 
 //////////////////////////////////////////////////////////////////////////////////
 // let's select the nav 
 //====< practice one more time! =====//
